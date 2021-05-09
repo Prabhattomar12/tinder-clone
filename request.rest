@@ -1,0 +1,23 @@
+GET http://localhost:4000/
+
+
+###
+POST http://localhost:4000/tinder/cards
+Content-Type: application/json
+
+[
+
+    {
+      "name": "Elon Musk",
+      "imageURL":
+        "https://cdn.images.dailystar.co.uk/dynamic/204/photos/544000/Russia-Vladimir-Putin-Mars-Mission-2019-Space-Roscosmos-NASA-Elon-Musk-SpaceX-Red-Planet-1268544.jpg"
+    },
+    {
+      "name": "Jeff Bezos",
+     "imageURL":
+        "https://th.bing.com/th/id/OIP.s6qsaB8i417SxQ_PTz4PvQHaHa?w=165&h=180&c=7&o=5&dpr=1.38&pid=1.7"
+    }
+]
+
+###
+GET http://localhost:4000/tinder/cards
